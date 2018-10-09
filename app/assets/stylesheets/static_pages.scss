@@ -1,3 +1,63 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#first{
+  font-size: 200%;
+}
+
+.hello-paragraph{
+  font-size: 235%;
+}
+#KyleCrownPic {
+  width: 20%;
+  background: white;
+  padding: 5px;
+  margin: 5px, 30px, 5px, 30px;
+  border: 9px dashed gold;
+  float:left;
+}
+#Tiger {
+    width: 30%;
+  background: white;
+  padding: 5px;
+  margin: 15px, 30px, 15px, 30px;
+  text-align: center;
+  border: 9px dashed purple;
+}
+
+ 
+
+.border{
+  border: 11px dashed black;
+}
+
+ul{
+  list-style:none;
+  text-align: center;
+
+}
+
+li{
+  display:inline-block;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  background-color: gold;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+a:hover{
+  background-color: purple;
+  transition-duration: 500ms;
+  color:white;
+}
+H1 {
+  text-align: center;
+  background: purple;
+  color: gold;
+  padding: 15px;
+  margin: 0;
+}
+

@@ -1,6 +1,4 @@
-class StaticPagesController < ApplicationController
-
-  def about
+def about
     render "about"
   end
 
@@ -11,4 +9,3 @@ class StaticPagesController < ApplicationController
   def portfolio
     render "portfolio"
   end
-end
